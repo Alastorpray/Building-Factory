@@ -1,6 +1,6 @@
 const CACHE_PREFIX = 'v3d-app-cache';
 const CACHE_HASH = '06d1eaa037';
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 
 const ASSETS = [
     'Building_Color.png',
