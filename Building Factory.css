@@ -45,3 +45,14 @@ body {
 .v3d-simple-preloader-container {
     filter: drop-shadow(0px 0px 4px #2a69bd);
 }
+
+
+.v3d-simple-preloader-logo {
+    background-image: url('media/robertech.svg');
+}
+
+.v3d-simple-preloader-bar {
+    background: linear-gradient(90deg, #ffffff, #4388e0);
+    height: 3px;
+    border-color: #2b70c7;
+}

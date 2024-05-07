@@ -4,6 +4,7 @@
 
 window.addEventListener('load', e => {
     const params = v3d.AppUtils.getPageParams();
+    if (true) navigator.serviceWorker.register('v3d_pwa_cache.js');
     createApp({
         containerId: 'v3d-container',
         fsButtonId: 'fullscreen-button',
