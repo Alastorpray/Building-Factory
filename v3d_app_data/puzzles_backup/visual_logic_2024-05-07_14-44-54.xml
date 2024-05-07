@@ -1,0 +1,388 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20.17573089599614" scrolly="-257.4" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="UQ8|!Iz5~d.;p!.^DK0P" x="142" y="286">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">FALSE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="-1052.6354054602828" scrolly="-171.2420113678039" scale="0.9980502965790522">
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="@P5e^`3jp)~!Ld#jC}}G" x="217" y="613">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">LoopRepeat</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="ZZhX`pwqLB8s4#yhR{$b">
+          <field name="FIELDNAME">rig_male</field>
+        </shadow>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="Bax@v/_qUBI|C2=(p%:Y">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="})}knC!L-;/$]Ahz-2Eo">
+          <field name="NUM">420</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="#wacv8o`[kzNbiBR!N]F">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="PDm;{L_iFKJbyy}e+khV" x="1106" y="592">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+      <value name="ANNOTATION">
+        <shadow type="text" id="K:rIPEOsIMwGvHy/_!Vs">
+          <field name="TEXT"></field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id="-NtD:=?;3C+lD6UX?y2C">
+          <field name="FIELDNAME">IB Dir Beta Tester</field>
+        </shadow>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="(Vh(M@@c~-m|{7bh{9Fn">
+          <field name="TEXT">Beta tester</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="u*I(M$#VNYOVUM{d;6;b">
+          <field name="TEXT">poi1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="addAnnotation" id="$X.IW,9z.P+ku{:{fZsP">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+          <value name="ANNOTATION">
+            <shadow type="text" id="pTCSIa[8G8Lzu@#@Txi0">
+              <field name="TEXT"></field>
+            </shadow>
+          </value>
+          <value name="TARGET">
+            <shadow type="objectList" id="n+Z=8tfAK-d#EBbqik7}">
+              <field name="FIELDNAME">IB Dir Worker 1</field>
+            </shadow>
+          </value>
+          <value name="CONTENTS">
+            <shadow type="text" id="v*M[Qf|b]ywX6I*koi+O">
+              <field name="TEXT">Programmer 1</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="tav:oIBh:f`^Krs*vE9v">
+              <field name="TEXT">poi2</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="addAnnotation" id="v=,MKK=eO)|,O;s_I(,k">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+              <value name="ANNOTATION">
+                <shadow type="text" id="gqrfSWh*j01Co0{O@wX-">
+                  <field name="TEXT"></field>
+                </shadow>
+              </value>
+              <value name="TARGET">
+                <shadow type="objectList" id="P4wA?o1J%D=Vpd7WQ/Xk">
+                  <field name="FIELDNAME">IB Dir Worker 2</field>
+                </shadow>
+              </value>
+              <value name="CONTENTS">
+                <shadow type="text" id="I+U2a{xVMpzR?,f*A$VA">
+                  <field name="TEXT">Programmer 2</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="1Y/CU/!MD4EsL=G`a}6Q">
+                  <field name="TEXT">poi3</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="addAnnotation" id="O_hzEOOh+c7jo$ktjeDA">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                  <value name="ANNOTATION">
+                    <shadow type="text" id="6gDjznbN~2_CM6WuDs,d">
+                      <field name="TEXT"></field>
+                    </shadow>
+                  </value>
+                  <value name="TARGET">
+                    <shadow type="objectList" id="eK#inpZ$Zuis9z.+m6:v">
+                      <field name="FIELDNAME">IB Dir Client</field>
+                    </shadow>
+                  </value>
+                  <value name="CONTENTS">
+                    <shadow type="text" id="D5qH82Mtv!kQdbXhhY3:">
+                      <field name="TEXT">Client</field>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="O}7BFkbxP`*bOmj3sFSc">
+                      <field name="TEXT">poi4</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="addAnnotation" id="frOzDCC#-n]w:HhI|cFo">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+                      <value name="ANNOTATION">
+                        <shadow type="text" id="q^~],ct.=lv}S/L1H9P5">
+                          <field name="TEXT"></field>
+                        </shadow>
+                      </value>
+                      <value name="TARGET">
+                        <shadow type="objectList" id="Y@d6qaX?7T9OL.t6YM5#">
+                          <field name="FIELDNAME">IB Dir Meeting Room</field>
+                        </shadow>
+                      </value>
+                      <value name="CONTENTS">
+                        <shadow type="text" id="@SobFk{fykOg/8NBvRQz">
+                          <field name="TEXT">Meeting Room</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="}a4mPUVF?8f+IUDl2m5N">
+                          <field name="TEXT">poi5</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="TB)#Gjv@4/MUN2Ax#5:2" x="187" y="765">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">LoopRepeat</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="^BHAVy$/5y7Z#jiqgs4d">
+          <field name="FIELDNAME">VR Character</field>
+        </shadow>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="lYl8_HXJ(y-Ms`!|m3@d">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="WTSI|rg,O}O9vN~S|O!|">
+          <field name="NUM">1080</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="R$IXY1V@=A2=|1|p=Ee)">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="Fr~+s-6V?yA{f=NzCSon" x="189" y="896">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">LoopRepeat</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="S=];^Ds*RXuBnoG-k0+I">
+          <field name="FIELDNAME">Worker 1</field>
+        </shadow>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="PgxzPN5Pv9$.Yk2;oJ0V">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="i5^Y#`$ck96Hxh_5w19#">
+          <field name="NUM">120</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="[%I0uQWBeu6[[I.(It]=">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="playAnimationAdv" id="}Ra5/h?Wo+!NnWT_yUn~">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopRepeat</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="=YW/RZ~TaX+)*~SwwCh1">
+              <field name="FIELDNAME">Worket 2</field>
+            </shadow>
+          </value>
+          <value name="FROM">
+            <shadow type="math_number" id="_jMhfS5lntiPSdSm:(Iz">
+              <field name="NUM">0</field>
+            </shadow>
+          </value>
+          <value name="TO">
+            <shadow type="math_number" id="-ceai%a*_K#d8Ej$o^}i">
+              <field name="NUM">120</field>
+            </shadow>
+          </value>
+          <value name="SPEED">
+            <shadow type="math_number" id="Hm2cpbR5.{ek|?P0O~Jv">
+              <field name="NUM">1</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="m]./Q*C}AA8y?_#PRas=" x="1101" y="1024">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">LoopRepeat</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="a+H9dJ/f,jA|X.!g0h*w">
+          <field name="FIELDNAME">Cubo de Rubik</field>
+        </shadow>
+        <block type="getAnimations" id="=~J`Ck%VYs=^~{pwAoz2">
+          <value name="OBJECTINPUT">
+            <shadow type="objectList" id="ICA0xf1Auz1R@Ev[T7JH">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="wrXwkfVOlM#ZiwG65C0C">
+              <field name="FIELDNAME">Legos</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="bV14}H_nP?(6ekKuMX@S">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="m_sr!=||oaO]BF_!7BfA">
+          <field name="NUM">100</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="@-*S[)(8P3J^*bcX5VSq">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="playAnimationAdv" id="#XbY,`^BcjpCRFHuAD)Y">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopPingPong</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="87kQ@kHR2)7Zf/L?zM_g">
+              <field name="FIELDNAME">Cubo de Rubik</field>
+            </shadow>
+            <block type="getAnimations" id="tP7M=N0($/(.9q#I-pqn">
+              <value name="OBJECTINPUT">
+                <shadow type="objectList" id="ICA0xf1Auz1R@Ev[T7JH">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+                <block type="groupList" id="7:J10XTR+[kw:A|,-{=v">
+                  <field name="FIELDNAME">Rubik</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="FROM">
+            <shadow type="math_number" id="{68jIbC/OUk;~4^9Opa3">
+              <field name="NUM">0</field>
+            </shadow>
+          </value>
+          <value name="TO">
+            <shadow type="math_number" id=":7)dOMx-*;$?iFExlK2t">
+              <field name="NUM">100</field>
+            </shadow>
+          </value>
+          <value name="SPEED">
+            <shadow type="math_number" id="n_?s;O?[3}=+4p9jLIe#">
+              <field name="NUM">1</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="d^cI`M)`*y5N=44P)@=e" x="229" y="1120">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">LoopRepeat</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="a+H9dJ/f,jA|X.!g0h*w">
+          <field name="FIELDNAME">Plane.034</field>
+        </shadow>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="A~R.L@R3u`a2/2?^.lqf">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="sDq{Qhdkg+H]G?es2b3;">
+          <field name="NUM">700</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="~Wd`2b^Cn3F=I+Q1?hr}">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="3H!c8%X*2*_BmqGdkk.j" x="1112" y="1222">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">LoopRepeat</field>
+      <value name="VALUE">
+        <shadow type="animationList" id=":GwzdM4^!qq`D%aJouT$">
+          <field name="FIELDNAME">Helix 1</field>
+        </shadow>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="G0rU=5dJ):@9=OCh:4/V">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="KZ-^[C$p!QsWlkm+$qiy">
+          <field name="NUM">60</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="qG|iVp9$d8uE5(Pg[lje">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="playAnimationAdv" id="_Ps9oqZMF9n9aQ}]}nw9">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopRepeat</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="c:DEe|higl`Y:x-a~Nz;">
+              <field name="FIELDNAME">Helix 2</field>
+            </shadow>
+          </value>
+          <value name="FROM">
+            <shadow type="math_number" id="k].X%f]TJfXxJ`j~zx#Z">
+              <field name="NUM">0</field>
+            </shadow>
+          </value>
+          <value name="TO">
+            <shadow type="math_number" id="MVvX#aWR[;P;^d|aVnS^">
+              <field name="NUM">60</field>
+            </shadow>
+          </value>
+          <value name="SPEED">
+            <shadow type="math_number" id="%T-1wfqelv_f6RAz+th=">
+              <field name="NUM">1</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="947.1624999999999" viewport-y="53.92578125" viewport-w="684.492" viewport-h="449.18" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
