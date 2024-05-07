@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="Init" type="InitTab" active="false" scrollx="20.17573089599614" scrolly="-257.4" scale="0.9">
+  <tab name="Init" type="InitTab" active="false" scrollx="20.17573089599614" scrolly="0.16250000000002274" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="UQ8|!Iz5~d.;p!.^DK0P" x="142" y="286">
       <field name="LOAD_COMP_ASSETS">FALSE</field>
       <field name="FULLSCREEN">FALSE</field>
@@ -149,7 +149,7 @@
         <block type="playAnimationAdv" id="#XbY,`^BcjpCRFHuAD)Y">
           <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
           <field name="REVERSED">FALSE</field>
-          <field name="LOOP">LoopPingPong</field>
+          <field name="LOOP">LoopRepeat</field>
           <value name="VALUE">
             <shadow type="animationList" id="87kQ@kHR2)7Zf/L?zM_g">
               <field name="FIELDNAME">Cubo de Rubik</field>

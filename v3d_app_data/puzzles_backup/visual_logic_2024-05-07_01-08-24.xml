@@ -149,7 +149,7 @@
         <block type="playAnimationAdv" id="#XbY,`^BcjpCRFHuAD)Y">
           <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
           <field name="REVERSED">FALSE</field>
-          <field name="LOOP">LoopPingPong</field>
+          <field name="LOOP">LoopRepeat</field>
           <value name="VALUE">
             <shadow type="animationList" id="87kQ@kHR2)7Zf/L?zM_g">
               <field name="FIELDNAME">Cubo de Rubik</field>

@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="Init" type="InitTab" active="false" scrollx="20.17573089599614" scrolly="-257.4" scale="0.9">
+  <tab name="Init" type="InitTab" active="true" scrollx="20.17573089599614" scrolly="0.16250000000002274" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="UQ8|!Iz5~d.;p!.^DK0P" x="142" y="286">
       <field name="LOAD_COMP_ASSETS">FALSE</field>
       <field name="FULLSCREEN">FALSE</field>
@@ -8,7 +8,7 @@
       <field name="FADE_ANNOTATIONS">TRUE</field>
     </block>
   </tab>
-  <tab name="New Tab" type="CommonTab" active="true" scrollx="-781" scrolly="-330.5" scale="1">
+  <tab name="New Tab" type="CommonTab" active="false" scrollx="182.52510448057797" scrolly="-36.435121343764706" scale="0.7513496749853523">
     <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="@P5e^`3jp)~!Ld#jC}}G" x="217" y="613">
       <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
       <field name="REVERSED">FALSE</field>
@@ -55,6 +55,31 @@
       </value>
       <value name="SPEED">
         <shadow type="math_number" id="R$IXY1V@=A2=|1|p=Ee)">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="AW]g}kl*S.vyN|Xl-Stt" x="1096" y="848">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">LoopRepeat</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="G{Stt*.7`|%RUH%B|zq2">
+          <field name="FIELDNAME">Cubo de Rubik</field>
+        </shadow>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="8I*9nhy@z}qO=k0T}/ht">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="LPzNq}xq|8w+=P`FAgp+">
+          <field name="NUM">100</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="b2{q:9EUM8*rtidr~/{k">
           <field name="NUM">1</field>
         </shadow>
       </value>
@@ -145,43 +170,6 @@
           <field name="NUM">1</field>
         </shadow>
       </value>
-      <next>
-        <block type="playAnimationAdv" id="#XbY,`^BcjpCRFHuAD)Y">
-          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
-          <field name="REVERSED">FALSE</field>
-          <field name="LOOP">LoopPingPong</field>
-          <value name="VALUE">
-            <shadow type="animationList" id="87kQ@kHR2)7Zf/L?zM_g">
-              <field name="FIELDNAME">Cubo de Rubik</field>
-            </shadow>
-            <block type="getAnimations" id="tP7M=N0($/(.9q#I-pqn">
-              <value name="OBJECTINPUT">
-                <shadow type="objectList" id="ICA0xf1Auz1R@Ev[T7JH">
-                  <field name="FIELDNAME">&lt;none&gt;</field>
-                </shadow>
-                <block type="groupList" id="7:J10XTR+[kw:A|,-{=v">
-                  <field name="FIELDNAME">Rubik</field>
-                </block>
-              </value>
-            </block>
-          </value>
-          <value name="FROM">
-            <shadow type="math_number" id="{68jIbC/OUk;~4^9Opa3">
-              <field name="NUM">0</field>
-            </shadow>
-          </value>
-          <value name="TO">
-            <shadow type="math_number" id=":7)dOMx-*;$?iFExlK2t">
-              <field name="NUM">100</field>
-            </shadow>
-          </value>
-          <value name="SPEED">
-            <shadow type="math_number" id="n_?s;O?[3}=+4p9jLIe#">
-              <field name="NUM">1</field>
-            </shadow>
-          </value>
-        </block>
-      </next>
     </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="d^cI`M)`*y5N=44P)@=e" x="229" y="1120">
       <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
