@@ -1,14 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="Init" type="InitTab" active="true" scrollx="20.17573089599614" scrolly="0.16250000000002274" scale="0.9">
-    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="UQ8|!Iz5~d.;p!.^DK0P" x="142" y="286">
-      <field name="LOAD_COMP_ASSETS">FALSE</field>
-      <field name="FULLSCREEN">FALSE</field>
-      <field name="BKG_TRANSPARENCY">FALSE</field>
-      <field name="PRESERVE_DRAW_BUF">FALSE</field>
-      <field name="FADE_ANNOTATIONS">TRUE</field>
-    </block>
-  </tab>
-  <tab name="New Tab" type="CommonTab" active="false" scrollx="182.52510448057797" scrolly="-36.435121343764706" scale="0.7513496749853523">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="42.88671875" scrolly="-24.200000000000045" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="@P5e^`3jp)~!Ld#jC}}G" x="217" y="613">
       <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
       <field name="REVERSED">FALSE</field>
@@ -249,5 +241,5 @@
       </next>
     </block>
   </tab>
-  <editorsettings viewport-x="784.5648437499999" viewport-y="91.0859375" viewport-w="684.492" viewport-h="449.18" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+  <editorsettings viewport-x="1413.6" viewport-y="37" viewport-w="954.4" viewport-h="697.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>
