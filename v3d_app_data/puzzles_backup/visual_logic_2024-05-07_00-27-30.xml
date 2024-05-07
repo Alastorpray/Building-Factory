@@ -1,0 +1,31 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="143.53003082275404" scrolly="104.28671874999998" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="@P5e^`3jp)~!Ld#jC}}G" x="241" y="626">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">AUTO</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="ZZhX`pwqLB8s4#yhR{$b">
+          <field name="FIELDNAME">rig_male</field>
+        </shadow>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="Bax@v/_qUBI|C2=(p%:Y">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="})}knC!L-;/$]Ahz-2Eo">
+          <field name="NUM">420</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="#wacv8o`[kzNbiBR!N]F">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1413.6" viewport-y="37" viewport-w="954.4" viewport-h="697.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

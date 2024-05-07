@@ -1,0 +1,220 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="42.88671875" scrolly="-24.200000000000045" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="@P5e^`3jp)~!Ld#jC}}G" x="217" y="613">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">LoopRepeat</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="ZZhX`pwqLB8s4#yhR{$b">
+          <field name="FIELDNAME">rig_male</field>
+        </shadow>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="Bax@v/_qUBI|C2=(p%:Y">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="})}knC!L-;/$]Ahz-2Eo">
+          <field name="NUM">420</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="#wacv8o`[kzNbiBR!N]F">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="TB)#Gjv@4/MUN2Ax#5:2" x="187" y="765">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">LoopRepeat</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="^BHAVy$/5y7Z#jiqgs4d">
+          <field name="FIELDNAME">VR Character</field>
+        </shadow>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="lYl8_HXJ(y-Ms`!|m3@d">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="WTSI|rg,O}O9vN~S|O!|">
+          <field name="NUM">1080</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="R$IXY1V@=A2=|1|p=Ee)">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="AW]g}kl*S.vyN|Xl-Stt" x="1096" y="848">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">LoopRepeat</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="G{Stt*.7`|%RUH%B|zq2">
+          <field name="FIELDNAME">Cubo de Rubik</field>
+        </shadow>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="8I*9nhy@z}qO=k0T}/ht">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="LPzNq}xq|8w+=P`FAgp+">
+          <field name="NUM">100</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="b2{q:9EUM8*rtidr~/{k">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="Fr~+s-6V?yA{f=NzCSon" x="189" y="896">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">LoopRepeat</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="S=];^Ds*RXuBnoG-k0+I">
+          <field name="FIELDNAME">Worker 1</field>
+        </shadow>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="PgxzPN5Pv9$.Yk2;oJ0V">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="i5^Y#`$ck96Hxh_5w19#">
+          <field name="NUM">120</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="[%I0uQWBeu6[[I.(It]=">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="playAnimationAdv" id="}Ra5/h?Wo+!NnWT_yUn~">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopRepeat</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="=YW/RZ~TaX+)*~SwwCh1">
+              <field name="FIELDNAME">Worket 2</field>
+            </shadow>
+          </value>
+          <value name="FROM">
+            <shadow type="math_number" id="_jMhfS5lntiPSdSm:(Iz">
+              <field name="NUM">0</field>
+            </shadow>
+          </value>
+          <value name="TO">
+            <shadow type="math_number" id="-ceai%a*_K#d8Ej$o^}i">
+              <field name="NUM">120</field>
+            </shadow>
+          </value>
+          <value name="SPEED">
+            <shadow type="math_number" id="Hm2cpbR5.{ek|?P0O~Jv">
+              <field name="NUM">1</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="m]./Q*C}AA8y?_#PRas=" x="1101" y="1024">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">LoopRepeat</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="a+H9dJ/f,jA|X.!g0h*w">
+          <field name="FIELDNAME">Cubo de Rubik</field>
+        </shadow>
+        <block type="getAnimations" id="=~J`Ck%VYs=^~{pwAoz2">
+          <value name="OBJECTINPUT">
+            <shadow type="objectList" id="ICA0xf1Auz1R@Ev[T7JH">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="wrXwkfVOlM#ZiwG65C0C">
+              <field name="FIELDNAME">Legos</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="bV14}H_nP?(6ekKuMX@S">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="m_sr!=||oaO]BF_!7BfA">
+          <field name="NUM">100</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="@-*S[)(8P3J^*bcX5VSq">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="3H!c8%X*2*_BmqGdkk.j" x="1112" y="1222">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">LoopRepeat</field>
+      <value name="VALUE">
+        <shadow type="animationList" id=":GwzdM4^!qq`D%aJouT$">
+          <field name="FIELDNAME">Helix 1</field>
+        </shadow>
+      </value>
+      <value name="FROM">
+        <shadow type="math_number" id="G0rU=5dJ):@9=OCh:4/V">
+          <field name="NUM">0</field>
+        </shadow>
+      </value>
+      <value name="TO">
+        <shadow type="math_number" id="KZ-^[C$p!QsWlkm+$qiy">
+          <field name="NUM">60</field>
+        </shadow>
+      </value>
+      <value name="SPEED">
+        <shadow type="math_number" id="qG|iVp9$d8uE5(Pg[lje">
+          <field name="NUM">1</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="playAnimationAdv" id="_Ps9oqZMF9n9aQ}]}nw9">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="true"></mutation>
+          <field name="REVERSED">FALSE</field>
+          <field name="LOOP">LoopRepeat</field>
+          <value name="VALUE">
+            <shadow type="animationList" id="c:DEe|higl`Y:x-a~Nz;">
+              <field name="FIELDNAME">Helix 2</field>
+            </shadow>
+          </value>
+          <value name="FROM">
+            <shadow type="math_number" id="k].X%f]TJfXxJ`j~zx#Z">
+              <field name="NUM">0</field>
+            </shadow>
+          </value>
+          <value name="TO">
+            <shadow type="math_number" id="MVvX#aWR[;P;^d|aVnS^">
+              <field name="NUM">60</field>
+            </shadow>
+          </value>
+          <value name="SPEED">
+            <shadow type="math_number" id="%T-1wfqelv_f6RAz+th=">
+              <field name="NUM">1</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1413.6" viewport-y="37" viewport-w="954.4" viewport-h="697.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
